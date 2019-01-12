@@ -32,6 +32,7 @@ html, body {
 
 .carousel-caption h1 {
     font-size: 500%;
+    font-weight: 600;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px #000;
 }
