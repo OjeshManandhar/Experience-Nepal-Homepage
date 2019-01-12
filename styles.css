@@ -43,6 +43,10 @@ html, body {
     text-shadow: 1px 1px 10px #000;
 }
 
+.col-img {
+    margin: 0px auto;
+}
+
 #slides, #about, #packages, #swiper {
     margin-bottom: 50px;
 }
