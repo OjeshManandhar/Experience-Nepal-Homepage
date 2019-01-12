@@ -98,6 +98,15 @@ html, body {
     .col-txt {
         order: 2;
     }
+
+    #banner {
+        color: blue;
+    }
+
+    #banner .btn-outline-secondary {
+        color: blue;
+        border-color: blue;
+    }
 }
 @media (max-width: 768px) {
     .col-img {
@@ -106,6 +115,15 @@ html, body {
 
     .col-txt {
         order: 2;
+    }
+
+    #banner {
+        color: brown;
+    }
+
+    #banner .btn-outline-secondary {
+        color: brown;
+        border-color: brown;
     }
 }
 @media (max-width: 576px) {
