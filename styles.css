@@ -21,7 +21,7 @@ html, body {
 
 .carousel-inner img {
     width: 100%;
-    height: 70vh;
+    height: 100%;
 }
 
 .carousel-caption {
@@ -35,6 +35,25 @@ html, body {
     font-weight: 600;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption .fig-abs {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption .fig-abs h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.carousel-caption .fig-abs p {
+    font-size: 1.2rem;
 }
 
 .col-img {
