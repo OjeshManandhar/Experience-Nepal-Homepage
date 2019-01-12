@@ -60,10 +60,22 @@ html, body {
 
 }
 @media (max-width: 768px) {
+    .col-img {
+        order: 1;
+    }
 
+    .col-txt {
+        order: : 2;
+    }
 }
 @media (max-width: 576px) {
+    .col-img {
+        order: 1;
+    }
 
+    .col-txt {
+        order: : 2;
+    }
 }
 
 
