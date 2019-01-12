@@ -20,7 +20,7 @@ html, body {
 }
 
 #slides {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .carousel-inner img {
@@ -44,6 +44,10 @@ html, body {
     font-size: 200%;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
+}
+
+#about {
+    margin-bottom: 50px;
 }
 
 
