@@ -23,8 +23,8 @@
 
         <!-- NavBar -->
         <!-- Grey with black text -->
+        <!-- Navbar from video
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-            <!-- Logo -->
             <p class="navbar-brand display-3">Experience Nepal</p>
 
             <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
@@ -51,6 +51,34 @@
                 </ul>
             </div>
         </nav>
+        -->
+
+        <!-- Nav bar from getbootstrap.com-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link activ" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
 
         <!-- Image Slider -->
         <div id="slides" class="carousel slide" data-ride="carousel">
@@ -66,7 +94,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./images/carousel/carousel 0.JPG">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h1 class="display-2">Experience Nepal</h1>
                         <h3>Visit Nepal 2020</h3>
                     </div>
