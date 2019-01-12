@@ -56,6 +56,7 @@ html, body {
 }
 
 .product-device {
+    z-index: 1;
     position: absolute;
     right: 10%;
     bottom: -30%;
@@ -68,6 +69,7 @@ html, body {
 }
 
 .product-device::before {
+    z-index: 1;
     position: absolute;
     top: 10%;
     right: 10px;
@@ -79,6 +81,7 @@ html, body {
 }
 
 .product-device-2 {
+    z-index: 0;
     top: -25%;
     right: auto;
     bottom: 0;
@@ -108,6 +111,12 @@ html, body {
         color: blue;
         border-color: blue;
     }
+
+    #banner .btn-outline-secondary:hover {
+        color: white;
+        background-color: blue;
+        border-color: blue;
+    }
 }
 @media (max-width: 768px) {
     .col-img {
@@ -124,6 +133,12 @@ html, body {
 
     #banner .btn-outline-secondary {
         color: brown;
+        border-color: brown;
+    }
+
+    #banner .btn-outline-secondary:hover {
+        color: white;
+        background-color: brown;
         border-color: brown;
     }
 }
