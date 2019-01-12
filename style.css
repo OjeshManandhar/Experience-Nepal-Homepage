@@ -50,6 +50,10 @@ html, body {
     font-size: 150%;
 }
 
+#banner-text {
+    z-index: 5;
+}
+
 .product-device {
     position: absolute;
     right: 10%;
@@ -87,7 +91,13 @@ html, body {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
+    .col-img {
+        order: 1;
+    }
 
+    .col-txt {
+        order: 2;
+    }
 }
 @media (max-width: 768px) {
     .col-img {
@@ -95,7 +105,7 @@ html, body {
     }
 
     .col-txt {
-        order: : 2;
+        order: 2;
     }
 }
 @media (max-width: 576px) {
@@ -104,7 +114,7 @@ html, body {
     }
 
     .col-txt {
-        order: : 2;
+        order: 2;
     }
 }
 
